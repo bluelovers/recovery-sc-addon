@@ -2,7 +2,7 @@
 # PA GApps Addon Module Install Preparation Script
 
 # _____________________________________________________________________________________________________________________
-#        
+#
 addon_type=keyboard;
 
 # Current Keyboard Addon install size (in Kbytes)
@@ -11,15 +11,15 @@ addon_size_kb=20068;
 # List of files to be deleted or replaced is a function used like a variable
 addon_file_list() {
 cat <<EOF
-/system/addon.d/72-keyboards.sh
-/system/app/LatinImeGoogle.apk
-/system/app/GoogleLatinIme.apk
-/system/lib/libjni_latinime.so
-/system/lib/libjni_unbundled_latinimegoogle.so
-/system/app/LatinIME.apk
-/system/lib/libjni_latinimegoogle.so
-/system/app/LatinImeGoogle.odex
+/system/addon.d/77-sco-lazy-addon-script.sh
 EOF
+#/system/app/LatinImeGoogle.apk
+#/system/app/GoogleLatinIme.apk
+#/system/lib/libjni_latinime.so
+#/system/lib/libjni_unbundled_latinimegoogle.so
+#/system/app/LatinIME.apk
+#/system/lib/libjni_latinimegoogle.so
+#/system/app/LatinImeGoogle.odex
 }
 
 # Buffer of extra system space to require for Addon install (10240=10MB)
@@ -59,4 +59,4 @@ echo "device_name=$device_name" >> $gprop;
 echo "# end pa gapps addon properties" >> $gprop;
 
 # Copy addon.prop to the SDCard as 'pa_addon.log'
-cp -f $gprop /sdcard/pa_addon.log;
+cp -f $gprop /sdcard/sco-lazy-addon-script.log;
