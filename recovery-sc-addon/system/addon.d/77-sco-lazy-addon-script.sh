@@ -1,15 +1,18 @@
 #!/sbin/sh
-# 
-# /system/addon.d/72-keyboards.sh
+#
+# /system/addon.d/77-sco-lazy-addon-script.sh
 #
 . /tmp/backuptool.functions
 
 list_files() {
 cat <<EOF
-app/LatinImeGoogle.apk
-lib/libjni_latinime.so
-lib/libjni_unbundled_latinimegoogle.so
+app/com.estrongs.android.pop.apk
+app/com.fiistudio.fiinote.apk
+app/com.fiistudio.file2pdf.apk
+app/Maps.apk
 EOF
+#lib/libjni_latinime.so
+#lib/libjni_unbundled_latinimegoogle.so
 }
 
 case "$1" in
@@ -33,11 +36,11 @@ case "$1" in
   ;;
   pre-restore)
     # Remove the stock/AOSP Keyboard
-    rm -f /system/app/LatinIME.apk
-    rm -f /system/lib/libjni_latinimegoogle.so
-    
+#    rm -f /system/app/LatinIME.apk
+#    rm -f /system/lib/libjni_latinimegoogle.so
+
     # Removing 'Rogue' Keyboard app found in Velocity (and possibly other) ROM's
-    rm -f /system/app/GoogleLatinIme.apk    
+#    rm -f /system/app/GoogleLatinIme.apk
   ;;
   post-restore)
     # Stub
