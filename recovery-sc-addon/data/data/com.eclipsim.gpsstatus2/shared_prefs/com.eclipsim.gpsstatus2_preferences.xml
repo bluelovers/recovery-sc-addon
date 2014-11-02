@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="brightness_unit_pref">0</string>
+    <float name="pitch_calibrartion_pref" value="0.0" />
+    <string name="heading_unit_pref">0</string>
+    <int name="versionCode" value="111" />
+    <boolean name="force_english_pref" value="false" />
+    <string name="altitude_correction_pref">0</string>
+    <boolean name="msl_altitude_pref" value="true" />
+    <string name="targetName">8:40</string>
+    <boolean name="nosleep_pref" value="false" />
+    <string name="temperature_unit_pref">0</string>
+    <string name="gpsxtra_validity_pref">86400</string>
+    <string name="notification_visibility_pref">2</string>
+    <int name="app_old_mode_pref" value="2" />
+    <long name="z_pref" value="0" />
+    <boolean name="eula_accepted" value="true" />
+    <float name="geoid_height_pref" value="16.9" />
+    <string name="targetLongitude">0.0</string>
+    <boolean name="show_pitch_pref" value="true" />
+    <string name="share_template_pref">我在這裡：%loc% %url%</string>
+    <string name="location_format_pref">1</string>
+    <boolean name="nmea_logging_pref" value="false" />
+    <boolean name="show_leveling_pref" value="true" />
+    <boolean name="zerobased_acc_pref" value="true" />
+    <float name="roll_calibrartion_pref" value="0.0" />
+    <boolean name="use_gps_speed_pref" value="true" />
+    <string name="filter_pref">0.2</string>
+    <string name="angular_speed_unit_pref">0</string>
+    <string name="distance_unit_pref">0</string>
+    <boolean name="show_time_in_utc_pref" value="false" />
+    <string name="targetLatitude">0.0</string>
+    <boolean name="show_radar_in_launcher_pref" value="false" />
+    <string name="theme_pref">Default</string>
+    <string name="pitchroll_unit_pref">0</string>
+    <boolean name="show_first_fix_time_pref" value="true" />
+    <string name="pressure_unit_pref">0</string>
+    <int name="last_gpsxtra_download_pref" value="1414961483" />
+    <string name="speed_unit_pref">0</string>
+    <boolean name="gps_when_screen_off_pref" value="true" />
+</map>
