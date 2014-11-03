@@ -14,7 +14,11 @@ echo sign...
 
 java -jar "%~dp0\signapk.jar" "%~dp0\testkey.x509.pem" "%~dp0\testkey.pk8" %1.zip %1-signed.zip
 
+echo Signed		: %1-signed.zip
+
 echo done.
 echo ...
 echo ..
 echo .
+
+rem exit
