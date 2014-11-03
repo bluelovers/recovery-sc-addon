@@ -2,6 +2,11 @@
 #
 # /system/addon.d/77-sco-lazy-addon-script.sh
 #
+
+#	export C=/tmp/backupdir
+#	export S=/system
+#	export V=9
+#	https://github.com/ngiordano/cm_vendor/blob/master/prebuilt/common/bin/backuptool.functions
 . /tmp/backuptool.functions
 
 list_files() {
@@ -18,11 +23,23 @@ EOF
 #lib/libjni_unbundled_latinimegoogle.so
 }
 
+#list_files_data() {
+#cat <<EOF
+#data/com.eclipsim.gpsstatus2/shared_prefs/com.eclipsim.gpsstatus2_preferences.xml
+#data/com.google.android.apps.maps/shared_prefs/settings_preference.xml
+#data/com.google.android.apps.maps/files/OfflineMapArea_1
+#EOF
+#}
+
 case "$1" in
   backup)
     list_files | while read FILE DUMMY; do
       backup_file $S/$FILE
     done
+
+#    list_files_data | while read FILE DUMMY; do
+#      backup_file $S/$FILE
+#    done
   ;;
   restore)
     list_files | while read FILE REPLACEMENT; do
