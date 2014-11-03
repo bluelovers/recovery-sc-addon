@@ -11,9 +11,9 @@ app/com.fiistudio.fiinote.apk
 app/com.fiistudio.file2pdf.apk
 app/Maps.apk
 app/com.iflytek.speechcloud.apk
-app/vStudio.Android.Camera360.apk
 priv-app/com.eclipsim.gpsstatus2.apk
 EOF
+#app/vStudio.Android.Camera360.apk
 #lib/libjni_latinime.so
 #lib/libjni_unbundled_latinimegoogle.so
 }
