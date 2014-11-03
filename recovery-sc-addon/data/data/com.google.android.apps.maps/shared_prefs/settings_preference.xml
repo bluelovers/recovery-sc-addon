@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <int name="settings_version" value="1" />
+    <boolean name="display_settings_scale_bar" value="true" />
+    <string name="display_settings_bubble_action">GET_DIRECTION</string>
+    <string name="map_tile_settings_prefetching_over_mobile_networks">false</string>
+    <int name="lastRunVersionCode" value="614020503" />
+    <boolean name="display_settings_zoom_buttons" value="true" />
+</map>
