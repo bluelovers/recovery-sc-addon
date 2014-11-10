@@ -11,7 +11,7 @@
 
 list_files() {
 cat <<EOF
-app/com.estrongs.android.pop.apk
+priv-app/com.estrongs.android.pop.apk
 app/com.fiistudio.fiinote.apk
 app/com.fiistudio.file2pdf.apk
 app/Maps.apk
