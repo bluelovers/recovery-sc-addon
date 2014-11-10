@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <long name="healthreport_last_upload_local_time" value="1414192297865" />
+    <int name="healthreport_current_day_failure_count" value="0" />
+    <long name="healthreport_prune_by_size_time" value="1414278713893" />
+    <string name="healthreport_last_upload_document_id">6d348718-ca7d-4ebb-8efc-683fd41df98e</string>
+    <string name="healthreport_obsolete_document_ids_to_deletions_remaining">{&quot;6d348718-ca7d-4ebb-8efc-683fd41df98e&quot;:126}</string>
+    <long name="healthreport_next_submission" value="1414278697865" />
+    <long name="healthreport_expiration_time" value="1414574188316" />
+    <long name="healthreport_first_run" value="1413969396687" />
+    <long name="healthreport_last_upload_requested" value="1414192297865" />
+    <long name="healthreport_cleanup_time" value="1416696149185" />
+    <long name="healthreport_current_day_reset_time" value="-1" />
+    <long name="healthreport_last_upload_succeeded" value="1414192297865" />
+</map>
