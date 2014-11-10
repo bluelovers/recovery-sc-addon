@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="setting_game_suggestion_in_content_suggestion" value="false" />
+    <boolean name="setting_auto_clear_cache" value="true" />
+    <boolean name="setting_scan_useless_app" value="false" />
+    <boolean name="is_delete_after_install" value="false" />
+    <boolean name="is_open_pre_download" value="false" />
+    <boolean name="setting_daily_wash" value="false" />
+    <boolean name="setting_notify_enable_data_collect" value="false" />
+    <boolean name="clean_all_notification" value="false" />
+    <boolean name="setting_auto_download_subscribed_video" value="false" />
+    <boolean name="setting_app_change_wash" value="false" />
+    <boolean name="setting_upload_contacts" value="false" />
+    <boolean name="setting_collect_data" value="false" />
+    <int name="setting_wdj_versioncode" value="6753" />
+    <boolean name="setting_enable_push" value="false" />
+    <boolean name="setting_root_install" value="false" />
+    <string name="udid"></string>
+    <boolean name="setting_auto_check_app_upgrade" value="true" />
+    <boolean name="setting_accept_photo_restore" value="false" />
+    <boolean name="setting_sync" value="false" />
+    <boolean name="setting_alert_update" value="false" />
+    <boolean name="clean_resident_notification" value="false" />
+    <boolean name="setting_auto_download_subscribed_music" value="false" />
+</map>
