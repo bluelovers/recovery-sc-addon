@@ -17,6 +17,9 @@ app/com.fiistudio.file2pdf.apk
 app/Maps.apk
 priv-app/com.eclipsim.gpsstatus2.apk
 app/com.google.android.apps.inputmethod.zhuyin.apk
+priv-app/com.forpda.lp.apk
+priv-app/com.oasisfeng.greenify.apk
+app/org.mozilla.firefox_beta.apk
 EOF
 #app/com.iflytek.speechcloud.apk
 #app/vStudio.Android.Camera360.apk
