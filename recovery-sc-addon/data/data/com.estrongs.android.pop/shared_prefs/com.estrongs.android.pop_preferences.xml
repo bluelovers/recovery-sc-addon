@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="hided_dirfiles_passwd_enable" value="false" />
+    <string name="last_bk_setting_file">/storage/sdcard1/Backup/ESSettings.zip</string>
+    <boolean name="enableRemoteSynchronizer" value="true" />
+    <boolean name="hide_toolbar" value="false" />
+    <boolean name="display_guideline_op" value="false" />
+    <int name="rightDrawerCurrentIndex" value="1" />
+    <boolean name="show_pcs_drive" value="true" />
+    <string name="theme_default">com.estrongs.android.pop</string>
+    <string name="fex_version">219</string>
+    <boolean name="browser_downloader_disabled" value="false" />
+    <boolean name="su" value="true" />
+    <boolean name="enable_recycle" value="false" />
+    <boolean name="scroll_thumb" value="true" />
+    <boolean name="send_statistics" value="true" />
+    <boolean name="upgrade_auto_check" value="false" />
+    <boolean name="start_passwd_enable" value="false" />
+    <boolean name="gesture_setting_enabled" value="true" />
+    <boolean name="root_reported" value="true" />
+    <boolean name="backup_app_cache" value="false" />
+    <boolean name="auto_app_backup" value="false" />
+    <boolean name="auto_clear" value="false" />
+    <string name="language_setting">-1</string>
+    <boolean name="passwordencode" value="true" />
+    <string name="view_smb">2200</string>
+    <boolean name="root_auto_install" value="false" />
+    <boolean name="multithread_copy_enabled" value="true" />
+    <string name="search_engine_default">google</string>
+    <boolean name="isUninitDocumentExtList" value="false" />
+    <string name="app_folder_update_time">1415302083597</string>
+    <boolean name="smb://_expanded" value="true" />
+    <boolean name="show_disk_usage" value="true" />
+    <string name="last_content_chooser_path"></string>
+    <string name="view_local">2200</string>
+    <boolean name="show_select_button" value="true" />
+    <boolean name="app_clean_history_exit" value="false" />
+    <boolean name="show_search_engine" value="false" />
+    <boolean name="net_passwd_enable" value="false" />
+    <boolean name="toolbar_setting_show_name" value="true" />
+    <boolean name="show_usb_prompt" value="true" />
+    <boolean name="show_windows_button" value="true" />
+    <long name="last_statistics" value="1415382882687" />
+    <boolean name="close_notification" value="false" />
+    <long name="last_request_push_data_time" value="1415302038942" />
+    <boolean name="clear_associate_folders_after_uninstall" value="true" />
+    <boolean name="show_disk_remain" value="true" />
+    <boolean name="hidden_file" value="true" />
+</map>
