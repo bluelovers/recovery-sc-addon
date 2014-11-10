@@ -1,0 +1,4 @@
+content LinkyMobile                                          jar:chrome/LinkyMobile.jar!/content/
+skin        LinkyMobile        classic/1.0                  jar:chrome/LinkyMobile.jar!/skin/
+locale        LinkyMobile        en-US                      jar:chrome/LinkyMobile.jar!/locale/en-US/
+
