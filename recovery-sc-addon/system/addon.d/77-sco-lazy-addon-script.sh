@@ -20,6 +20,8 @@ app/com.google.android.apps.inputmethod.zhuyin.apk
 priv-app/com.forpda.lp.apk
 priv-app/com.oasisfeng.greenify.apk
 app/org.mozilla.firefox_beta.apk
+app/com.coolapk.market.apk
+priv-app/de.robv.android.xposed.installer.apk
 EOF
 #app/com.iflytek.speechcloud.apk
 #app/vStudio.Android.Camera360.apk
