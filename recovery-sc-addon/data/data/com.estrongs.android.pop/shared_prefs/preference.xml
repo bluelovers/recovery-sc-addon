@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="download_path">/storage/sdcard1/Download/</string>
+    <long name="recomm_last_check_time" value="1415382883823" />
+    <string name="root_path">/storage/sdcard1/</string>
+    <long name="upgrade_last_check_time" value="1413794816726" />
+    <string name="app_backup_path">/storage/sdcard1/Backup/App/</string>
+    <string name="bt_path">/storage/sdcard1/</string>
+    <string name="es_last_open_time_string">1415382883796</string>
+</map>
