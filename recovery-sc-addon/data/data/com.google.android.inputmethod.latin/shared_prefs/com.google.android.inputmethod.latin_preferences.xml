@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="pref_key_use_contacts_dict" value="true" />
+    <boolean name="next_word_prediction" value="true" />
+    <string name="pref_keyboard_layout_20110916">0</string>
+    <boolean name="pref_show_language_switch_key" value="true" />
+    <boolean name="pref_include_other_imes_in_language_switch_list" value="true" />
+    <boolean name="pref_enable_metrics_logging" value="false" />
+    <boolean name="show_suggestions" value="true" />
+    <boolean name="gesture_input" value="true" />
+    <string name="pref_key_preview_popup_dismiss_delay">70</string>
+    <boolean name="auto_cap" value="false" />
+    <boolean name="pref_key_block_potentially_offensive" value="false" />
+    <boolean name="pref_key_use_double_space_period" value="true" />
+    <boolean name="vibrate_on" value="true" />
+    <boolean name="pref_voice_input_key" value="true" />
+    <boolean name="popup_on" value="true" />
+    <boolean name="pref_gesture_preview_trail" value="true" />
+    <boolean name="sound_on" value="false" />
+    <boolean name="pref_gesture_floating_preview_text" value="true" />
+    <boolean name="pref_show_setup_wizard_icon" value="false" />
+    <boolean name="pref_gesture_space_aware" value="true" />
+    <boolean name="pref_key_use_personalized_dicts" value="true" />
+    <string name="auto_correction_threshold">1</string>
+</map>
