@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="keyboard_height_ratio">1.0</string>
+    <int name="cached_snapshot_version_snapshot_zh_tw_pinyin_qwerty_land_dark_theme_-1.png" value="18" />
+    <boolean name="import_user_contacts" value="true" />
+    <boolean name="hide_english_keyboard" value="false" />
+    <int name="user_dict_entry" value="93" />
+    <int name="cached_snapshot_version_snapshot_zh_tw_cangjie_port_dark_theme_-1.png" value="18" />
+    <boolean name="show_launcher_icon" value="true" />
+    <string name="cangjie_standard">cangjie_standard_standard</string>
+    <string name="cangjie_version">cangjie_version_3</string>
+    <string name="cached_version_name_keyboard_def_cache_2131034161_dark_theme_zh_TW">2.1.0.79226761-armeabi-v7a_175_19</string>
+    <string name="cached_version_name_keyboard_def_cache_2131034165_material_dark_theme_zh_TW">2.1.0.79226761-armeabi-v7a_175_19</string>
+    <string name="ACTIVE_IME.SOFT.und-x-dashboard">dashboard</string>
+    <boolean name="new_word_update_notify" value="true" />
+    <long name="user_contacts_import_timestamp" value="0" />
+    <string name="cached_version_name_keyboard_def_cache_2131034165_dark_theme_zh_TW">2.1.0.79226761-armeabi-v7a_175_19</string>
+    <boolean name="show_language_switch_key" value="true" />
+    <boolean name="enable_spatial_model" value="true" />
+    <string name="cached_version_name_keyboard_def_cache_2131034164_dark_theme_zh_TW">2.1.0.79226761-armeabi-v7a_175_19</string>
+    <boolean name="enable_voice_input" value="true" />
+    <string name="key_long_press_delay">400</string>
+    <string name="cached_version_name_keyboard_def_cache_2131034163_dark_theme_zh_TW">2.1.0.79226761-armeabi-v7a_175_19</string>
+    <int name="cached_snapshot_version_snapshot_zh_tw_handwriting_port_dark_theme_-1.png" value="18" />
+    <boolean name="enable_popup_on_keypress" value="true" />
+    <boolean name="sync" value="false" />
+    <int name="HAD_FIRST_RUN" value="2" />
+    <string name="cached_version_name_keyboard_def_cache_2131034161_material_dark_theme_zh_TW">2.1.0.79226761-armeabi-v7a_175_19</string>
+    <int name="cached_snapshot_version_snapshot_zh_tw_handwriting_land_dark_theme_-1.png" value="18" />
+    <string name="ACTIVE_IME.SOFT.und-Latn-x-password">password</string>
+    <boolean name="enable_sound_on_keypress" value="false" />
+    <string name="keyboard_theme">dark_theme</string>
+    <int name="user_contacts_count" value="0" />
+    <long name="last_sync" value="1414390460454" />
+    <boolean name="enable_sc_tc_conversion" value="false" />
+    <string name="ACTIVE_IME.SOFT.und-Latn-x-number">number</string>
+    <string name="RECENT_NON_PRIME_KEYBOARD_en_qwerty">DIGIT</string>
+    <string name="handwriting_timeout_ms">500</string>
+    <int name="cached_snapshot_version_snapshot_zh_tw_zhuyin_4x10_land_dark_theme_-1.png" value="18" />
+    <string name="cached_version_name_keyboard_def_cache_2131034162_dark_theme_zh_TW">2.1.0.79226761-armeabi-v7a_175_19</string>
+    <boolean name="enable_spell_correction" value="false" />
+    <float name="cached_snapshot_kb_ratio_snapshot_zh_tw_zhuyin_4x10_port_dark_theme_-1.png" value="1.0" />
+    <float name="cached_snapshot_kb_ratio_snapshot_zh_tw_zhuyin_4x10_land_dark_theme_-1.png" value="1.0" />
+    <boolean name="enable_auto_capitalization" value="false" />
+    <boolean name="enable_english_prediction" value="true" />
+    <null name="android_account" />
+    <boolean name="enable_vibrate_on_keypress" value="false" />
+    <long name="save_dict_time" value="1415466253510" />
+    <boolean name="switch_to_other_imes" value="false" />
+    <boolean name="enable_handwriting_feedback" value="false" />
+    <boolean name="enable_chinese_prediction" value="true" />
+    <boolean name="enable_user_metrics" value="false" />
+    <boolean name="enable_incremental_gesture_input" value="true" />
+    <float name="sound_volume" value="0.29999995" />
+    <string name="cached_version_name_keyboard_def_cache_2131034177_material_dark_theme_zh_TW">2.1.0.79226761-armeabi-v7a_175_19</string>
+    <boolean name="credentials_valid" value="false" />
+    <null name="auth_token" />
+    <float name="cached_snapshot_kb_ratio_snapshot_zh_tw_handwriting_port_dark_theme_-1.png" value="1.0" />
+    <boolean name="enable_gesture_auto_commit" value="true" />
+    <string name="ACTIVE_LANGUAGE">en</string>
+    <boolean name="enable_auto_space_smart_punctuation" value="false" />
+    <string name="handwriting_stroke_width_scale">1.0</string>
+    <int name="cached_snapshot_version_snapshot_zh_tw_zhuyin_4x10_port_dark_theme_-1.png" value="18" />
+    <float name="cached_snapshot_kb_ratio_snapshot_zh_tw_cangjie_port_dark_theme_-1.png" value="1.0" />
+    <boolean name="enable_double_space_period" value="true" />
+    <string name="RECENT_NON_PRIME_KEYBOARD_password">DIGIT</string>
+    <string name="cached_version_name_keyboard_def_cache_2131034177_dark_theme_zh_TW">2.1.0.79226761-armeabi-v7a_175_19</string>
+    <string name="ACTIVE_LANGUAGE_EMAIL_ADDRESS">en</string>
+    <string name="ACTIVE_LANGUAGE_URI">en</string>
+    <boolean name="enable_gesture_input" value="true" />
+    <string name="ACTIVE_IME.SOFT.und-Latn-x-phone-number">phone_number</string>
+    <boolean name="show_canonical_romanization" value="false" />
+    <string name="cached_version_name_keyboard_def_cache_2131034164_material_dark_theme_zh_TW">2.1.0.79226761-armeabi-v7a_175_19</string>
+    <string name="cached_version_name_keyboard_def_cache_2131034160_material_dark_theme_zh_TW">2.1.0.79226761-armeabi-v7a_175_19</string>
+    <string name="cached_version_name_keyboard_def_cache_2131034160_dark_theme_zh_TW">2.1.0.79226761-armeabi-v7a_175_19</string>
+    <float name="cached_snapshot_kb_ratio_snapshot_zh_tw_pinyin_qwerty_land_dark_theme_-1.png" value="1.0" />
+    <long name="daily_ping_task_next_run_time" value="1415489847923" />
+    <string name="ACTIVE_LANGUAGE_608653612">zh-TW</string>
+    <float name="cached_snapshot_kb_ratio_snapshot_zh_tw_handwriting_land_dark_theme_-1.png" value="1.0" />
+    <boolean name="chinese_english_mixed_input" value="true" />
+    <string name="vibration_duration">16</string>
+    <string name="keyboard_slide_sensitivity_ratio">1.0</string>
+    <string name="ACTIVE_IME.SOFT.en">en_qwerty</string>
+    <int name="cached_snapshot_version_snapshot_zh_tw_pinyin_qwerty_port_dark_theme_-1.png" value="18" />
+    <int name="non_prime_keyboard_states" value="0" />
+    <string name="ACTIVE_IME.SOFT.zh-TW">zh_tw_zhuyin_4x10</string>
+    <boolean name="new_word_update" value="true" />
+    <boolean name="enable_shortcuts_dictionary" value="true" />
+    <string name="RECENT_NON_PRIME_KEYBOARD_zh_tw_zhuyin_4x10">DIGIT</string>
+    <float name="cached_snapshot_kb_ratio_snapshot_zh_tw_pinyin_qwerty_port_dark_theme_-1.png" value="1.0" />
+</map>
