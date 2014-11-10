@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="suggestedSites.locale">zh_TW</string>
+    <set name="android.not_a_preference.privacy.clear">
+        <string>private.data.cookies_sessions</string>
+        <string>private.data.cache</string>
+        <string>private.data.history</string>
+        <string>private.data.downloadFiles</string>
+        <string>private.data.offlineApps</string>
+        <string>private.data.formdata</string>
+        <string>private.data.passwords</string>
+        <string>private.data.siteSettings</string>
+    </set>
+    <boolean name="startpane_enabled" value="false" />
+    <string name="home_locale">zh_TW</string>
+    <set name="android.not_a_preference.history.clear_on_exit">
+        <string>private.data.offlineApps</string>
+        <string>private.data.cache</string>
+        <string>private.data.cookies_sessions</string>
+        <string>private.data.formdata</string>
+        <string>private.data.history</string>
+        <string>private.data.passwords</string>
+    </set>
+</map>
