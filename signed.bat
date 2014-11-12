@@ -1,6 +1,6 @@
 
 @echo OFF
 
-call bin\zipsign.bat recovery-sc-addon\recovery-sc-addon
+call "%~dp0\bin\zipsign.bat" recovery-sc-addon\recovery-sc-addon
  
 pause
