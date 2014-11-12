@@ -22,6 +22,7 @@ priv-app/com.oasisfeng.greenify.apk
 app/org.mozilla.firefox_beta.apk
 app/com.coolapk.market.apk
 priv-app/de.robv.android.xposed.installer.apk
+app/com.alensw.PicFolder.apk
 EOF
 #app/com.iflytek.speechcloud.apk
 #app/vStudio.Android.Camera360.apk
