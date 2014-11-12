@@ -1,0 +1,117 @@
+ui_print("");
+ui_print("#########################################");
+ui_print("      Scorpio Lazy Addon Script     ");
+ui_print("------------------------------------");
+ui_print("             Installing             ");
+ui_print("            Please Wait.            ");
+ui_print("------------------------------------");
+ui_print("        Thanks you for using        ");
+ui_print("#########################################");
+ui_print(" ");
+ui_print("Scorpio Lazy Addon Script 4.4.4 - 2014");
+ui_print(" ");
+
+sleep(3);
+
+ui_print("Mounting system...");
+run_program("/sbin/busybox", "mount", "/system");
+ui_print(" ");
+
+# Checking to make certain user has a 4.4.x ROM Installed - If not, we abort
+ifelse(
+    is_substring("4.4", file_getprop("/system/build.prop","ro.build.version.release")),
+    (
+        ui_print("Android 4.4.x ROM detected");
+        ui_print(" ");
+    ),
+    (
+        ui_print("*** Incompatible Android ROM detected ***");
+        ui_print(" ");
+        ui_print("This Addon pkg is for Android 4.4.x ONLY");
+        ui_print(" ");
+        ui_print("******* Addon Installation failed *******");
+        ui_print(" ");
+        ui_print("Unmounting system...");
+        run_program("/sbin/busybox", "umount", "/system");
+        ui_print(" ");
+        sleep(7);
+        abort("Aborting...");
+    )
+);
+
+show_progress(0.1, 6);
+
+# Extract required package files to /tmp and run the preparation script
+package_extract_file("install-prep.sh", "/tmp/install-prep.sh");
+set_perm(0, 0, 0777, "/tmp/install-prep.sh");
+run_program("/tmp/install-prep.sh", file_getprop("/system/build.prop","ro.product.device"));
+
+show_progress(0.2, 15);
+
+ui_print("Mounting system...");
+
+#run_program("/sbin/busybox", "mount", "/system");
+run_program("/sbin/busybox", "mount", "/data");
+run_program("/sbin/busybox", "mount", "/dalvik");
+run_program("/sbin/busybox", "mount", "/sdcard");
+run_program("/sbin/busybox", "mount", "/preload");
+
+#delete file
+ui_print("--------------------------------");
+ui_print("       Removing old files       ");
+delete("/system/addon.d/77-sco-lazy-addon-script-xposed.sh");
+delete("");
+
+show_progress(0.3, 15);
+
+#delete folder
+ui_print("--------------------------------");
+ui_print("       Removing old folder      ");
+ui_print("--------------------------------");
+delete_recursive("");
+delete_recursive("");
+
+show_progress(0.5, 15);
+
+package_extract_dir("system", "/system");
+
+#support data
+package_extract_dir("data", "/data");
+
+#support sdcard
+package_extract_dir("sdcard", "/sdcard");
+
+show_progress(1, 15);
+
+ui_print("Fixing Permissions...");
+ui_print(" ");
+
+set_perm(0, 0, 0755, "/system/addon.d/77-sco-lazy-addon-script.sh");
+set_perm_recursive(0, 0, 0755, 0644, "/system/app");
+set_perm_recursive(0, 0, 0755, 0644, "/system/priv-app");
+
+set_perm(1000, 1000, 0771, "/data");
+set_perm_recursive(1000, 1000, 0771, 0644, "/data/app");
+
+ui_print("Unmounting system...");
+ui_print(" ");
+
+run_program("/sbin/busybox", "umount", "/system");
+run_program("/sbin/busybox", "umount", "/data");
+run_program("/sbin/busybox", "umount", "/dalvik");
+run_program("/sbin/busybox", "umount", "/sdcard");
+run_program("/sbin/busybox", "umount", "/preload");
+
+ui_print("Addon Installation Complete!");
+ui_print(" ");
+
+ui_print("--------------------------------");
+ui_print("      ____  ____  _   ________  ");
+ui_print("     / __ \/ __ \/ | / / ____/  ");
+ui_print("    / / / / / / /  |/ / __/     ");
+ui_print("   / /_/ / /_/ / /|  / /___     ");
+ui_print("  /_____/\____/_/ |_/_____/     ");
+ui_print("--------------------------------");
+ui_print("      Please Reboot Phone       ");
+
+sleep(3);
