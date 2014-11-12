@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="group3" value="true" />
+    <boolean name="group4" value="false" />
+    <boolean name="group1" value="false" />
+    <boolean name="group2" value="false" />
+    <boolean name="group0" value="false" />
+</map>
