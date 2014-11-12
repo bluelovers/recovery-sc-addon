@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+
+Name: system/addon.d/72-keyboards.sh
+SHA1-Digest: b8GWwWCZ3SoccOC3xF8044fOPOU=
+
+Name: META-INF/com/google/android/updater-script
+SHA1-Digest: hApY3q2u0h7moB7uTCx2I6EJtuc=
+
+Name: system/lib/libjni_unbundled_latinimegoogle.so
+SHA1-Digest: hz+3KgFGfQ5onDur0nxcPb55nOk=
+
+Name: system/lib/libjni_latinime.so
+SHA1-Digest: Z4vjZKkK7JoZwpCOT2eH+tFpcz0=
+
+Name: system/app/LatinImeGoogle.apk
+SHA1-Digest: UmvSsGo9IP7rrv9fzrh1L9857LA=
+
+Name: META-INF/com/google/android/update-binary
+SHA1-Digest: 7LjhI2kUKoWfvQFHyInm+pcJigY=
+
+Name: install-prep.sh
+SHA1-Digest: mD8PDe8UsAHRlddMle6MKTOX8iw=
+
