@@ -41,6 +41,13 @@ case "$1" in
 	;;
 	pre-backup)
 		# Stub
+		list_files | while read FILE DUMMY; do
+			if [ -f "$S/$FILE.orig" && -f "$S/$FILE" ]
+			then
+				backup_file $S/$FILE.orig
+				backup_file $S/$FILE
+			fi
+		done
 	;;
 	post-backup)
 		# Stub
