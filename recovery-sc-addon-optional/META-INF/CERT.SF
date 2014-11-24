@@ -1,0 +1,25 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+SHA1-Digest-Manifest: W8H/dw2QYTebv6CXOSg1cgmQg4E=
+
+Name: META-INF/com/google/android/updater-script
+SHA1-Digest: D8N/hUDnWciSYTECc622b0lEebI=
+
+Name: system/addon.d/72-keyboards.sh
+SHA1-Digest: HZ8FNpuefVD+htKqIa7Zh0eTnw8=
+
+Name: system/lib/libjni_latinime.so
+SHA1-Digest: PK1mFDxWIc89kPGnzgqafWPiD58=
+
+Name: system/lib/libjni_unbundled_latinimegoogle.so
+SHA1-Digest: B5zFdbxyVyQsw2bQ4YPVSuE+ZX4=
+
+Name: system/app/LatinImeGoogle.apk
+SHA1-Digest: OWqYefJgXEEvPx6P4RRp8yp0sp8=
+
+Name: META-INF/com/google/android/update-binary
+SHA1-Digest: CSZ7Gyg6X76HeNNSMKPZaNDGFlI=
+
+Name: install-prep.sh
+SHA1-Digest: ewgct7U0kZl7i/vusV3UPYEW4xo=
+
