@@ -18,6 +18,7 @@ rem call "%~dp0\bin\zipsign.bat" recovery-sc-addon-xposed
 call "build-make.bat" recovery-sc-addon
 call "build-make.bat" recovery-sc-addon-xposed
 call "build-make.bat" recovery-sc-addon-xposed-disabler
+call "build-make.bat" recovery-sc-addon-optional
 
 cd "%~dp0"
 
